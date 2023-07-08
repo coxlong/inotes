@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: coxlong <coxlong@qq.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>inotes</id>
+    <name>I Notes</name>
+    <summary>a markdown text editor plugin</summary>
+    <description><![CDATA[a markdown text editor plugin]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="coxlong@qq.com" homepage="https://github.com/coxlong">coxlong</author>
+    <namespace>INotes</namespace>
+    <category>files</category>
+    <bugs>https://github.com/coxlong/inotes/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="24" max-version="24"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>I Notes</name>
+            <route>inotes.page.index</route>
+        </navigation>
+    </navigations>
+</info>
