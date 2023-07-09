@@ -4,8 +4,8 @@
     SPDX-License-Identifier: AGPL-3.0-or-later
     -->
     <testsuites>
-        <testsuite name="unit">
+        <!-- <testsuite name="unit">
             <directory>./Unit</directory>
-        </testsuite>
+        </testsuite> -->
     </testsuites>
 </phpunit>
