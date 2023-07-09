@@ -16,11 +16,11 @@
     <category>files</category>
     <bugs>https://github.com/coxlong/inotes/issues</bugs>
     <dependencies>
-        <nextcloud min-version="24" max-version="24"/>
+        <nextcloud min-version="24" max-version="28"/>
     </dependencies>
     <navigations>
         <navigation>
-            <name>I Notes</name>
+            <name>i笔记</name>
             <route>inotes.page.index</route>
         </navigation>
     </navigations>
